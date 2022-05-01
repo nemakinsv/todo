@@ -32,6 +32,7 @@
                     @endforeach
 
                 </table>
+                {{ $todo->links() }}
                 @else
                 нет задач
                 @endif
